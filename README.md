@@ -1,5 +1,7 @@
 # Implementation of VGG19 and VGG34 Neural Networks on the CIFAR-10 Dataset
 
+## Introducing VGGs
+
 Crediting to the Visual Geometry Group, University of Oxford, the series of VGG convolutional neural network was a phenomenon at that time when the paper [*Very Deep Convolutional Networks for Large-Scale Image Recognition*](https://arxiv.org/abs/1409.1556) was published. 
 
 The paper investigated the effect of a CNN's depth on its accuracy in the large-scale image recognition setting. It proposed a novel architecture of neural networks using very small (3x3) convolution filters, which decrease the number of parameters and time needed for computation significantly, pushing the depth to 16-19 weight layers. This resulted in the state-of-the-art results achieved by VGG19 on various classification tasks.
